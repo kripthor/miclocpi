@@ -170,3 +170,11 @@ void loop() {
   Serial.println("ms");
 
 }
+
+/*
+On ESP32 running at 160Mhz, output is:
+
+Test crossCorrelation: offset 499, took 9111ms
+Test crossCorrelation2: offset 499, took 6583ms
+Test crossCorrelation3: offset 499, took 1706ms
+*/
