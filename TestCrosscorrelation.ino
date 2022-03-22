@@ -133,7 +133,7 @@ int result;
 void setup() {
   Serial.begin(115200);
   Serial.println("Init...");
-  //skew by 500 samples
+  //skew by 499 samples
   test_signal_1[0] = 0xff; 
   test_signal_2[499] = 0xff; 
 }
